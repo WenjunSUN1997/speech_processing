@@ -1,0 +1,14 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Grammar for Turtle example
+ */
+
+grammar digit_sequence_1;
+
+public <digit_original_1> = go forward ten meters;
+
+public <digit_sequence_1> = <digit1>;
+
+<digit1> =  oh | zero | one | two | three | four | five | six | seven | eight | nine ;
+
